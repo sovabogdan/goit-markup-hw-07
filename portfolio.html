@@ -16,30 +16,30 @@
     <!--Шапка сайта-->
 <header class="header">
     <div class="container header-container">
-        <nav class="main-nav">
-            <a href="./index.html" class="logo">
-                <span class="web" lang="en">Web</span><span lang="en" class="studio">Studio</span>
+        <nav class="nav">
+            <a href="./index.html" class="logo header__logo">
+                <span class="logo__web " lang="en">Web</span><span lang="en" class="logo__studio">Studio</span>
             </a>
 
             <ul class="site-nav">
-                <li class="nav-item"><a class="title" href="./index.html">Студия</a></li>
-                <li class="nav-item"><a class="activ-page title" href="./portfolio.html">Портфолио</a></li>
-                <li class="nav-item"><a class="title" href="">Контакты</a></li>
+                <li class="site-nav__item"><a class="site-nav__link" href="./index.html">Студия</a></li>
+                <li class="site-nav__item"><a class="activ-page site-nav__link" href="./portfolio.html">Портфолио</a></li>
+                <li class="site-nav__item"><a class="site-nav__link" href="">Контакты</a></li>
             </ul>
         </nav>
-        <div class="header-contacts">
+        <div class="header__contacts">
             <ul class="contacts">
-                <li class="contacts-item">
-                    <a class="title title-mail" href="mailto:info@devstudio.com">
-                        <svg class="icon-mail">
+                <li class="contacts__item">
+                    <a class="contacts__link" href="mailto:info@devstudio.com">
+                        <svg class="contacts__icon">
                             <use href="./images/icons.svg#icon-mail" width="16" height="16"></use>
                         </svg>
                         info@devstudio.com
                     </a>
                 </li>
-                <li class="contacts-item">
-                    <a class="title" href="tel:+380961111111">
-                        <svg class="icon-phone">
+                <li class="contacts__item">
+                    <a class="contacts__link" href="tel:+380961111111">
+                        <svg class="contacts__icon">
                             <use href="./images/icons.svg#icon-phone" width="16" height="16"></use>
                         </svg>
                         +38 096 111 11 11
@@ -55,155 +55,155 @@
         <!--Фильтры-->
         <div class="container">
         <ul class="btn-portfolio">
-            <li><button type="button" class="filter activ">Все</button></li>
-            <li><button type="button" class="filter">Веб-сайты</button></li>
-            <li><button type="button" class="filter">Приложения</button></li>
-            <li><button type="button" class="filter">Дизайн</button></li>
-            <li><button type="button" class="filter">Маркетинг</button></li>
+            <li class="btn-portfolio__item"><button type="button" class="btn-portfolio__link activ">Все</button></li>
+            <li class="btn-portfolio__item"><button type="button" class="btn-portfolio__link">Веб-сайты</button></li>
+            <li class="btn-portfolio__item"><button type="button" class="btn-portfolio__link">Приложения</button></li>
+            <li class="btn-portfolio__item"><button type="button" class="btn-portfolio__link">Дизайн</button></li>
+            <li class="btn-portfolio__item"><button type="button" class="btn-portfolio__link">Маркетинг</button></li>
         </ul>
         <!--Проекты-->
-        <div class="exmpls-container">
-        <ul class="exmpls">
-            <li>
-                <a href="" class="project">
-                    <div class="exmpls-photo">
+        <div class="exmpl container">
+        <ul class="exmpls__card-set">
+            <li class="exmpls__card">
+                <a href="" class="exmpls__link">
+                    <div class="exmpls__photo">
                     <img src="./images/portfolio1.jpg" alt="ноутбук с открытой страницей сайта" width="370" />
                    
-                        <p class="exmpls-overlay">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, ratione. Soluta quod nostrum atque debitis rerum, porro vel!</p>
+                        <p class="exmpls__overlay">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, ratione. Soluta quod nostrum atque debitis rerum, porro vel!</p>
                     
                     </div>
-                    <div class="exmpls-about">
-                    <h3>Технокряк</h3>
+                    <div class="exmpls__meta">
+                    <h3 class="exmpls__title">Технокряк</h3>
                     
-                    <p class="exmpls-title">
+                    <p class="exmpls__type">
                         Веб-сайт
                     </p>
                    </div> 
                 </a>
             </li>
-            <li>
-                <a href="" class="project">
-                    <div class="exmpls-photo">
+            <li class="exmpls__card">
+                <a href="" class="exmpls__link">
+                    <div class="exmpls__photo">
                     <img src="./images/portfolio2.jpg" alt="два баскетболиста во время игры" width="370" />
                 
-                        <p class="exmpls-overlay">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, ratione. Soluta quod nostrum atque debitis rerum, porro vel!</p>
+                        <p class="exmpls__overlay">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, ratione. Soluta quod nostrum atque debitis rerum, porro vel!</p>
                     
                     </div>
-                    <div class="exmpls-about">
-                    <h3>Постер <span lang="en">New Orlean vs Golden Star</span></h3>
-                    <p class="exmpls-title">
+                    <div class="exmpls__meta">
+                    <h3 class="exmpls__title">Постер <span lang="en">New Orlean vs Golden Star</span></h3>
+                    <p class="exmpls__type">
                         Дизайн
                     </p>
                   </div>  
                 </a>
             </li>
-            <li>
-                <a href="" class="project">
-                    <div class="exmpls-photo">
+            <li class="exmpls__card">
+                <a href="" class="exmpls__link">
+                    <div class="exmpls__photo">
                     <img src="./images/portfolio3.jpg" alt="логотип ресторана" width="370" />
                 
-                        <p class="exmpls-overlay">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, ratione. Soluta quod nostrum atque debitis rerum, porro vel!</p>
+                        <p class="exmpls__overlay">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, ratione. Soluta quod nostrum atque debitis rerum, porro vel!</p>
                     
                     </div>
-                    <div class="exmpls-about">
-                    <h3>Ресторан <span lang="en">Seafood</span></h3>
-                    <p class="exmpls-title">
+                    <div class="exmpls__meta">
+                    <h3 class="exmpls__title">Ресторан <span lang="en">Seafood</span></h3>
+                    <p class="exmpls__type">
                         Приложение
                     </p>
                  </div>   
                 </a>
             </li>
-            <li>
-                <a href="" class="project">
-                    <div class="exmpls-photo">
+            <li class="exmpls__card">
+                <a href="" class="exmpls__link">
+                    <div class="exmpls__photo">
                     <img src="./images/portfolio4.jpg" alt="наушники" width="370" />
                 
-                        <p class="exmpls-overlay">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, ratione. Soluta quod nostrum atque debitis rerum, porro vel!</p>
+                        <p class="exmpls__overlay">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, ratione. Soluta quod nostrum atque debitis rerum, porro vel!</p>
                     
                     </div>
-                    <div class="exmpls-about">
-                    <h3>Проект <span lang="en">Prime</span></h3>
-                    <p class="exmpls-title">
+                    <div class="exmpls__meta">
+                    <h3 class="exmpls__title">Проект <span lang="en">Prime</span></h3>
+                    <p class="exmpls__type">
                         Маркетинг
                     </p>
                    </div> 
                 </a>
             </li>
-            <li>
-                <a href="" class="project">
-                    <div class="exmpls-photo">
+            <li class="exmpls__card">
+                <a href="" class="exmpls__link">
+                    <div class="exmpls__photo">
                     <img src="./images/portfolio5.jpg" alt="две коробки" width="370" />
                 
-                        <p class="exmpls-overlay">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, ratione. Soluta quod nostrum atque debitis rerum, porro vel!</p>
+                        <p class="exmpls__overlay">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, ratione. Soluta quod nostrum atque debitis rerum, porro vel!</p>
                     
                     </div>
-                    <div class="exmpls-about">
-                    <h3>Проект <span lang="en">Boxes</span></h3>
-                    <p class="exmpls-title">
+                    <div class="exmpls__meta">
+                    <h3 class="exmpls__title">Проект <span lang="en">Boxes</span></h3>
+                    <p class="exmpls__type">
                         Приложение
                     </p>
                   </div>  
                 </a>
             </li>
-            <li>
-                <a href="" class="project">
-                    <div class="exmpls-photo">
+            <li class="exmpls__card">
+                <a href="" class="exmpls__link">
+                    <div class="exmpls__photo">
                     <img src="./images/portfolio6.jpg" alt="монитор компьютера с открытой страницей сайта" width="370" />
                 
-                        <p class="exmpls-overlay">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, ratione. Soluta quod nostrum atque debitis rerum, porro vel!</p>
+                        <p class="exmpls__overlay">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, ratione. Soluta quod nostrum atque debitis rerum, porro vel!</p>
                     
                     </div>
-                    <div class="exmpls-about">
-                    <h3 lang="en">Inspiration has no Borders</h3>
-                    <p class="exmpls-title">
+                    <div class="exmpls__meta">
+                    <h3 class="exmpls__title" lang="en">Inspiration has no Borders</h3>
+                    <p class="exmpls__type">
                         Веб-сайт
                     </p>
                   </div>  
                 </a>
             </li>
-            <li>
-                <a href="" class="project">
-                    <div class="exmpls-photo">
+            <li class="exmpls__card">
+                <a href="" class="exmpls__link">
+                    <div class="exmpls__photo">
                     <img src="./images/portfolio7.jpg" alt="открытая книга" width="370" />
                 
-                        <p class="exmpls-overlay">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, ratione. Soluta quod nostrum atque debitis rerum, porro vel!</p>
+                        <p class="exmpls__overlay">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, ratione. Soluta quod nostrum atque debitis rerum, porro vel!</p>
                     
                     </div>
-                    <div class="exmpls-about">
-                    <h3>Издание <span lang="en">Limited Edition</span></h3>
-                    <p class="exmpls-title">
+                    <div class="exmpls__meta">
+                    <h3 class="exmpls__title">Издание <span lang="en">Limited Edition</span></h3>
+                    <p class="exmpls__type">
                         Дизайн
                     </p>
                    </div> 
                 </a>
             </li>
-            <li>
-                <a href="" class="project">
-                    <div class="exmpls-photo">
+            <li class="exmpls__card">
+                <a href="" class="exmpls__link">
+                    <div class="exmpls__photo">
                     <img src="./images/portfolio8.jpg" alt="бирка с надписью" width="370" />
                 
-                        <p class="exmpls-overlay">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, ratione. Soluta quod nostrum atque debitis rerum, porro vel!</p>
+                        <p class="exmpls__overlay">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, ratione. Soluta quod nostrum atque debitis rerum, porro vel!</p>
                     
                     </div>
-                    <div class="exmpls-about">
-                    <h3>Проект <span lang="en">LAB</span></h3>
-                    <p class="exmpls-title">
+                    <div class="exmpls__meta">
+                    <h3 class="exmpls__title">Проект <span lang="en">LAB</span></h3>
+                    <p class="exmpls__type">
                         Маркетинг
                     </p>
                    </div> 
                 </a>
             </li>
-            <li>
-                <a href="" class="project">
-                    <div class="exmpls-photo">
+            <li class="exmpls__card">
+                <a href="" class="exmpls__link">
+                    <div class="exmpls__photo">
                     <img src="./images/portfolio9.jpg" alt="работа на ноутбуке" width="370" />
                 
-                        <p class="exmpls-overlay">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, ratione. Soluta quod nostrum atque debitis rerum, porro vel!</p>
+                        <p class="exmpls__overlay">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, ratione. Soluta quod nostrum atque debitis rerum, porro vel!</p>
                     
                     </div>
-                    <div class="exmpls-about">
-                    <h3 lang="en">Growing Business</h3>
-                    <p class="exmpls-title">
+                    <div class="exmpls__meta">
+                    <h3 class="exmpls__title" lang="en">Growing Business</h3>
+                    <p class="exmpls__type">
                         Приложение
                     </p>
                   </div>  
@@ -215,70 +215,74 @@
         </section>
     </main>
     <!--Футер-->
-    <footer class="footer">
-        <div class="container footer-container">
-            <div>
-                <a href="./index.html" class="logo footer-logo">
-                    <span class="web" lang="en">Web</span><span lang="en" class="studio">Studio</span>
-                </a>
-                <ul class="footer-list">
-                    <li>
-                        <address class="address"><a class="map-link" href="https://goo.gl/maps/mbySBSFmMzTaM3LG6"
-                                target="_blank">г. Киев, пр-т Леси Украинки, 26</a></address>
-                    </li>
-                    <li><a href="mailto:info@devstudio.com" class="footer-contacts">info@devstudio.com</a></li>
-                    <li><a href="tel:+380961111111" class="footer-contacts">+38 096 111 11 11</a></li>
-                </ul>
-            </div>
-            <div class="join-container">
-                <h2 class="join-title">ПРИСОЕДИНЯЙТЕСЬ</h2>
-                <ul class="teammate-social-list list">
-                    <li class="teammate-social-item">
-                        <a href="" class="teammate-social-link join-link">
-                            <svg class="teammate-social-icon join-icon" width="20" height="20">
-                                <use href="./images/icons.svg#icon-instagram"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="teammate-social-item">
-                        <a href="" class="teammate-social-link join-link">
-                            <svg class="teammate-social-icon join-icon" width="20" height="20">
-                                <use href="./images/icons.svg#icon-twitter"></use>
-                            </svg></a>
-                    </li>
-                    <li class="teammate-social-item">
-                        <a href="" class="teammate-social-link join-link">
-                            <svg class="teammate-social-icon join-icon" width="20" height="20">
-                                <use href="./images/icons.svg#icon-facebook"></use>
-                            </svg></a>
-                    </li>
-                    <li class="teammate-social-item">
-                        <a href="" class="teammate-social-link join-link">
-                            <svg class="teammate-social-icon join-icon" width="20" height="20">
-                                <use href="./images/icons.svg#icon-linkedin"></use>
-                            </svg></a>
-                    </li>
-                </ul>
-            </div>
-    
-            <form class="mailing-form">
-                <div class="mailing-container">
-                    <label for="mailing">подпишитесь на рассылку</label>
-                    <input class="mailing-input" type="email" name="email" id="mailing" placeholder="E-mail">
-                </div>
-                <div class="btn-mailing-icon">
-                    <button type="submit" class="mailing-btn">
-                        Подписаться
-                    </button>
-                    <svg class="icon-airplane" width="24" height="24">
-                        <use href="./images/icons.svg#icon-airplane"></use>
-                    </svg>
-                </div>
-    
-            </form>
-    
+<footer class="footer">
+    <div class="container footer__container">
+        <div>
+            <a href="./index.html" class="logo footer__logo">
+                <span class="logo__web" lang="en">Web</span><span lang="en"
+                    class="logo__studio footer-logo__studio">Studio</span>
+            </a>
+            <ul class="footer-meta__list">
+                <li>
+                    <address class="footer-meta__item footer-meta__address"><a class="footer-meta-map__link"
+                            href="https://goo.gl/maps/mbySBSFmMzTaM3LG6" target="_blank">г. Киев, пр-т Леси Украинки,
+                            26</a></address>
+                </li>
+                <li><a href="mailto:info@devstudio.com"
+                        class="footer-meta__item footer-meta__contacts">info@devstudio.com</a></li>
+                <li><a href="tel:+380961111111" class="footer-meta__item footer-meta__contacts">+38 096 111 11 11</a>
+                </li>
+            </ul>
         </div>
-    </footer>
+        <div class="join">
+            <h2 class="join__title">ПРИСОЕДИНЯЙТЕСЬ</h2>
+            <ul class="social__list list">
+                <li class="social__item">
+                    <a href="" class="social__link join-social__link">
+                        <svg class="social__icon join-social__icon" width="20" height="20">
+                            <use href="./images/icons.svg#icon-instagram"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a href="" class="social__link join-social__link">
+                        <svg class="social__icon c" width="20" height="20">
+                            <use href="./images/icons.svg#icon-twitter"></use>
+                        </svg></a>
+                </li>
+                <li class="social__item">
+                    <a href="" class="social__link join-social__link">
+                        <svg class="social__icon join-social__icon" width="20" height="20">
+                            <use href="./images/icons.svg#icon-facebook"></use>
+                        </svg></a>
+                </li>
+                <li class="social__item">
+                    <a href="" class="social__link join-social__link">
+                        <svg class="social__icon join-social__icon" width="20" height="20">
+                            <use href="./images/icons.svg#icon-linkedin"></use>
+                        </svg></a>
+                </li>
+            </ul>
+        </div>
+
+        <form class="mailing-form">
+            <div class="mailing-form__container">
+                <label class="mailing-form__label" for="mailing">подпишитесь на рассылку</label>
+                <input class="mailing-form__input" type="email" name="email" id="mailing" placeholder="E-mail">
+            </div>
+            <div class="mailing-btn">
+                <button type="submit" class="mailing-btn__body">
+                    Подписаться
+                </button>
+                <svg class="mailing-btn__icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-airplane"></use>
+                </svg>
+            </div>
+
+        </form>
+
+    </div>
+</footer>
     
 </body>
 </html>
