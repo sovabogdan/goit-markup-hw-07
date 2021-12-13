@@ -216,7 +216,7 @@ li {
 }
 
 .hero__title {
-  padding-bottom: 30px;
+  margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
@@ -740,6 +740,10 @@ li {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+}
+
+.work {
+  padding-top: 0;
 }
 
 .work__title {
